@@ -1,0 +1,176 @@
+.section {
+  position: relative;
+  padding: 120px 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Background Pattern */
+.bgPattern {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(201,168,76,0.08), transparent 40%),
+    radial-gradient(circle at 80% 60%, rgba(201,168,76,0.06), transparent 50%);
+  pointer-events: none;
+}
+
+/* Inner */
+.inner {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+
+/* Heading */
+.heading {
+  font-family: var(--font-display);
+  font-size: clamp(34px, 5vw, 56px);
+  font-weight: 900;
+  line-height: 1.2;
+  color: var(--white);
+}
+
+.headingAccent {
+  color: var(--gold);
+  font-style: italic;
+}
+
+/* Subtext */
+.subtext {
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--white-dim);
+  max-width: 600px;
+}
+
+/* Pricing */
+.priceRow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.strike {
+  font-size: 20px;
+  color: var(--white-muted);
+  text-decoration: line-through;
+}
+
+.price {
+  font-size: 40px;
+  font-weight: 900;
+  color: var(--gold);
+}
+
+.badge {
+  font-size: 12px;
+  padding: 6px 12px;
+  background: rgba(201,168,76,0.15);
+  border: 1px solid rgba(201,168,76,0.4);
+  color: var(--gold);
+  border-radius: 50px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* CTA Button */
+.ctaBtn {
+  margin-top: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 18px 42px;
+  font-size: 17px;
+  font-weight: 700;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #c9a84c, #e7c873);
+  color: #000;
+  text-decoration: none;
+  transition: 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Glow effect */
+.ctaBtn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle, rgba(255,255,255,0.4), transparent 60%);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.ctaBtn:hover::before {
+  opacity: 0.2;
+}
+
+.ctaBtn:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 20px 60px rgba(201,168,76,0.4);
+}
+
+/* Trust Row */
+.trustRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 30px;
+}
+
+.trustItem {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--white-dim);
+}
+
+/* Animations */
+.heading,
+.subtext,
+.priceRow,
+.ctaBtn,
+.trustRow {
+  animation: fadeUp 0.8s ease both;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .priceRow {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .price {
+    font-size: 32px;
+  }
+
+  .ctaBtn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .trustRow {
+    gap: 12px;
+  }
+}

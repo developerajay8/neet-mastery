@@ -8,6 +8,8 @@ import WhyUs from "./components/whyus";
 import Results from "./components/results";
 import Pricing from "./components/pricing";
 import FAQ from "./components/faq";
+import BundleSection from "./components/bundlesection2";
+import FinalCTA from "./components/finalcts";
 
 export default function Home() {
   return (
@@ -15,11 +17,13 @@ export default function Home() {
       <Navbar/>
       <Hero/>
       <Bundle/>
+      <BundleSection/>
       <WhyUs/>
       <Results/>
       <Testimonials/>
       <Pricing/>
       <FAQ/>
+      <FinalCTA/>
       
 
 
