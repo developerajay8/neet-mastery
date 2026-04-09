@@ -34,6 +34,10 @@ export default function Hero() {
           designed for maximum score in minimum time.
         </p>
 
+        <div className='rounded-2xl'>
+            <img src="/image copy 3.png" className='rounded-2xl' alt="" />
+        </div>
+
         {/* Stats Row */}
         <div className={styles.statsRow}>
           {[

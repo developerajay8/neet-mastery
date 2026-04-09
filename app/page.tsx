@@ -16,8 +16,8 @@ export default function Home() {
     <div className="">
       <Navbar/>
       <Hero/>
-      <Bundle/>
       <BundleSection/>
+      <Bundle/>
       <WhyUs/>
       <Results/>
       <Testimonials/>
