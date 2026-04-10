@@ -10,8 +10,8 @@
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(circle at 20% 20%, rgba(201,168,76,0.08), transparent 40%),
-    radial-gradient(circle at 80% 60%, rgba(201,168,76,0.06), transparent 50%);
+    radial-gradient(circle at 20% 20%, rgba(20,241,199,0.12), transparent 40%),
+    radial-gradient(circle at 80% 60%, rgba(59,125,255,0.1), transparent 50%);
   pointer-events: none;
 }
 
@@ -72,8 +72,8 @@
 .badge {
   font-size: 12px;
   padding: 6px 12px;
-  background: rgba(201,168,76,0.15);
-  border: 1px solid rgba(201,168,76,0.4);
+  background: rgba(20,241,199,0.16);
+  border: 1px solid rgba(20,241,199,0.35);
   color: var(--gold);
   border-radius: 50px;
   text-transform: uppercase;
@@ -90,7 +90,7 @@
   font-size: 17px;
   font-weight: 700;
   border-radius: 12px;
-  background: linear-gradient(135deg, #c9a84c, #e7c873);
+  background: var(--brand-gradient);
   color: #000;
   text-decoration: none;
   transition: 0.3s ease;

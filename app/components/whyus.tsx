@@ -32,7 +32,7 @@ export default function WhyUs() {
         {/* Left */}
         <div className={styles.left}>
           <div className="section-tag">
-            <span>✦</span> Why NEET Mastery
+            <span>✦</span> Why NEET NEXUS
           </div>
           <h2 className={styles.heading}>
             The Smarter Way to{' '}

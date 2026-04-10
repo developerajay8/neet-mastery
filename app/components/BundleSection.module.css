@@ -1,6 +1,6 @@
 .section {
   padding: 100px 0;
-  background: radial-gradient(circle at top, rgba(201,168,76,0.08), transparent 60%);
+  background: radial-gradient(circle at top, rgba(20, 241, 199, 0.08), transparent 60%);
 }
 
 /* Heading */
@@ -62,12 +62,12 @@
 
 .card:hover {
   transform: translateY(-5px);
-  border-color: rgba(201,168,76,0.4);
+  border-color: rgba(20,241,199,0.4);
 }
 
 /* Titles */
 .beforeTitle {
-  color: #ff5c5c;
+  color: var(--gold);
   margin-bottom: 20px;
   font-size: 22px;
 }

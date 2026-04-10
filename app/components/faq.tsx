@@ -86,11 +86,11 @@ export default function FAQ() {
 
         <div className={styles.contact}>
           Still have questions? Reach us on{' '}
-          <a href="https://t.me/neetmastery" target="_blank" rel="noopener noreferrer" className={styles.contactLink}>
+          <a href="https://t.me/neetnexus" target="_blank" rel="noopener noreferrer" className={styles.contactLink}>
             Telegram
           </a>{' '}
           or{' '}
-          <a href="mailto:support@neetmastery.in" className={styles.contactLink}>
+          <a href="mailto:support@neetnexus.in" className={styles.contactLink}>
             Email us
           </a>
         </div>

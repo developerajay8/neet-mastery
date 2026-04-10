@@ -11,13 +11,13 @@ export default function FinalCTA() {
           <span>✦</span> Last Chance
         </div>
         <h2 className={styles.heading}>
-          Your NEET 2026 Rank Depends
+          Your NEET NEXUS Advantage Starts
           <br />
-          on{' '}
-          <span className={styles.headingAccent}>What You Do Today</span>
+          with{' '}
+          <span className={styles.headingAccent}>One Smart Choice</span>
         </h2>
         <p className={styles.subtext}>
-          Thousands of students are already studying with NEET Mastery. Every day you delay is a day they get ahead. Start your preparation now.
+          Thousands of students are already studying with NEET NEXUS. Every day you delay is a day they get ahead. Start your preparation now.
         </p>
 
         <div className={styles.priceRow}>
@@ -41,14 +41,14 @@ export default function FinalCTA() {
         <div className={styles.trustRow}>
           {[
             'Instant Digital Delivery',
-            'Secure Razorpay Payment',
+            'Secure Payment',
             'Lifetime Access',
             '10,000+ Students Trust Us',
           ].map((item, i) => (
             <div key={i} className={styles.trustItem}>
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
-                <path d="M9 12l2 2 4-4" stroke="#c9a84c" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-                <circle cx="12" cy="12" r="9" stroke="#c9a84c" strokeWidth="1.5"/>
+                <path d="M9 12l2 2 4-4" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.5"/>
               </svg>
               {item}
             </div>

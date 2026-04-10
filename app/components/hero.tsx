@@ -8,34 +8,34 @@ export default function Hero() {
   };
 
   return (
-    <section className={styles.hero}>
+    <section className={styles.hero} >
       {/* Background grid */}
-      <div className={styles.bgGrid} aria-hidden="true" />
+      {/* <div className={styles.bgGrid} aria-hidden="true" /> */}
       <div className={styles.bgGlow} aria-hidden="true" />
 
       <div className={`${styles.inner} container`}>
         {/* Badge */}
         <div className={styles.badge}>
           <span className={styles.badgeDot} />
-          NEET 2026 — Complete Preparation Bundle
+          NEET NEXUS — Smart Modules for 2027/2028
         </div>
 
         {/* Heading */}
         <h1 className={styles.heading}>
-          Crack NEET 2026{' '}
-          <span className={styles.headingAccent}>with Smart Strategy</span>
+          NEET NEXUS{' '}
+          <span className={styles.headingAccent}>for 2027 & 2028</span>
           <br />
-          Not Just Hard Work
+          Smart Study, Real Results
         </h1>
 
         {/* Subheading */}
         <p className={styles.subheading}>
-          Complete Bundle for Physics · Chemistry · Biology — curated by top rankers,
-          designed for maximum score in minimum time.
+          Complete NEET bundle for Physics · Chemistry · Biology — built for speed,
+          clarity, and higher scores.
         </p>
 
         <div className='rounded-2xl'>
-            <img src="/image copy 3.png" className='rounded-2xl' alt="" />
+            <img src="/image copy 5.png" className='rounded-2xl' alt="" />
         </div>
 
         {/* Stats Row */}
@@ -70,29 +70,29 @@ export default function Hero() {
         <div className={styles.trust}>
           <div className={styles.trustItem}>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-              <path d="M9 12l2 2 4-4" stroke="#c9a84c" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              <circle cx="12" cy="12" r="9" stroke="#c9a84c" strokeWidth="1.5"/>
+              <path d="M9 12l2 2 4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.5"/>
             </svg>
             Instant Access
           </div>
           <div className={styles.trustItem}>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-              <path d="M9 12l2 2 4-4" stroke="#c9a84c" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              <circle cx="12" cy="12" r="9" stroke="#c9a84c" strokeWidth="1.5"/>
+              <path d="M9 12l2 2 4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.5"/>
             </svg>
             Lifetime Access
           </div>
           <div className={styles.trustItem}>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-              <path d="M9 12l2 2 4-4" stroke="#c9a84c" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              <circle cx="12" cy="12" r="9" stroke="#c9a84c" strokeWidth="1.5"/>
+              <path d="M9 12l2 2 4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.5"/>
             </svg>
             100% Secure Payment
           </div>
           <div className={styles.trustItem}>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-              <path d="M9 12l2 2 4-4" stroke="#c9a84c" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              <circle cx="12" cy="12" r="9" stroke="#c9a84c" strokeWidth="1.5"/>
+              <path d="M9 12l2 2 4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.5"/>
             </svg>
             Expert-Curated Content
           </div>

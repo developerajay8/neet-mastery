@@ -23,15 +23,15 @@ export default function BundleSection() {
           </div>
 
           <div className={styles.right}>
-            <img src="/image.png" alt="devices" />
+            <img src="/image copy 6.png" alt="devices" />
           </div>
         </div>
 
         {/* BEFORE vs AFTER */}
-        <div className={styles.compare}>
+        <div className="">
 
           {/* BEFORE */}
-          <div className={styles.card}>
+          {/* <div className={styles.card}> */}
             {/* <h3 className={styles.beforeTitle}>❌ Before Buying</h3>
             <ul>
               <li>😓 Studying from multiple books</li>
@@ -40,8 +40,8 @@ export default function BundleSection() {
               <li>⏳ Wasting time making notes</li>
               <li>😣 Stress before exams</li>
             </ul> */}
-            <img src="/image copy.png" alt="" />
-          </div>
+            {/* <img src="/image copy.png" alt="" /> */}
+          {/* </div> */}
 
           {/* AFTER */}
           <div className={styles.card}>
@@ -53,7 +53,7 @@ export default function BundleSection() {
               <li>🚀 Better accuracy & speed</li>
               <li>😎 High confidence in exams</li>
             </ul> */}
-            <img src="/image copy 2.png" alt="" />
+            <img src="/image copy 7.png" className='w-full' alt="" />
           </div>
 
         </div>

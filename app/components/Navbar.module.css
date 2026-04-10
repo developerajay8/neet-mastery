@@ -84,7 +84,7 @@
 /* CTA */
 .navCta {
   padding: 10px 22px;
-  background: var(--gold);
+  background: var(--brand-gradient);
   color: var(--black);
   font-family: var(--font-body);
   font-weight: 600;
@@ -98,7 +98,7 @@
 }
 
 .navCta:hover {
-  background: var(--gold-light);
+  background: linear-gradient(135deg, rgba(59, 125, 255, 0.95), rgba(20, 241, 199, 0.95));
   transform: translateY(-1px);
 }
 
@@ -178,7 +178,7 @@
 .mobileCta {
   width: 100%;
   padding: 14px;
-  background: var(--gold) !important;
+  background: var(--brand-gradient) !important;
   color: var(--black) !important;
   font-weight: 600 !important;
   border-radius: var(--radius-md) !important;

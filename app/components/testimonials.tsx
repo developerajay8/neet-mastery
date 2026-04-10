@@ -6,42 +6,42 @@ const testimonials = [
   {
     name: 'Riya Gupta',
     college: 'AIIMS Delhi',
-    rank: 'AIR 183',
+    rank: '',
     text: 'The PYQs and mock tests were life-changing. I went from 580 in my first mock to 710 in the real exam. The strategy PDFs are pure gold — I followed the time table exactly and it worked!',
     rating: 5,
   },
   {
     name: 'Karan Mehta',
     college: 'Maulana Azad Medical College',
-    rank: 'AIR 412',
+    rank: '',
     text: 'Notes are super crisp — no fluff. Every important NCERT line is highlighted. I revised Biology 5 times using these notes and scored 355/360 in Bio. Worth every rupee.',
     rating: 5,
   },
   {
     name: 'Ananya Joshi',
     college: 'Grant Medical College',
-    rank: 'AIR 1240',
+    rank: '',
     text: 'I was worried before purchasing but the doubt support group is amazing. Mentors replied within hours. The bundle is extremely affordable for the quality it provides.',
     rating: 5,
   },
   {
     name: 'Vikram Soni',
     college: 'SMS Medical College, Jaipur',
-    rank: 'AIR 2100',
+    rank: '',
     text: 'Chem notes are the best I\'ve seen anywhere. Organic reactions, inorganic facts — everything is in one place. Mock tests helped me manage exam time properly. Highly recommended!',
     rating: 5,
   },
   {
     name: 'Pooja Rawat',
     college: 'KGMU Lucknow',
-    rank: 'AIR 3450',
+    rank: '',
     text: 'I dropped a year and was skeptical. But this bundle helped me cover all gaps. The chapter checklists kept me on track. Cleared in my 2nd attempt with a great score!',
     rating: 5,
   },
   {
     name: 'Ajay Kumar',
     college: 'BHU Medical College',
-    rank: 'AIR 5600',
+    rank: '',
     text: 'Physics notes and PYQs are excellent. Got 150+ in Physics — my weakest subject. Strategy PDF taught me which chapters to prioritize. This bundle is a must-have!',
     rating: 5,
   },
@@ -60,7 +60,7 @@ export default function Testimonials() {
             <span className="gold-text">Say About Us</span>
           </h2>
           <p className={styles.subheading}>
-            Over 10,000 students have used NEET Mastery bundle. Here's what they experienced.
+            Over 10,000 students have used NEET NEXUS bundle. Here's what they experienced.
           </p>
         </div>
 
