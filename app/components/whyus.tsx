@@ -49,13 +49,15 @@ export default function WhyUs() {
             </div>
           </div>
 
-          <button
+         <a
+              href="https://superprofile.bio/nexusneet/vrCCQFYRiP"
+              target="_blank"
+              rel="noopener noreferrer"
             className="btn-primary"
             style={{ marginTop: '8px', alignSelf: 'flex-start' }}
-            onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            Start Today — ₹499
-          </button>
+            Start Today — ₹399
+          </a>
         </div>
 
         {/* Right */}

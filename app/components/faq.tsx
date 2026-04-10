@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     q: 'Is the payment process secure?',
-    a: 'Completely secure. We use Razorpay — India\'s most trusted payment gateway — which supports UPI, Debit/Credit Cards, Net Banking, and Wallets. Your payment data is fully encrypted.',
+    a: 'Completely secure. We use https://superprofile — India\'s most trusted payment gateway — which supports UPI, Debit/Credit Cards, Net Banking, and Wallets. Your payment data is fully encrypted.',
   },
   {
     q: 'How many mock tests are included and how are they graded?',

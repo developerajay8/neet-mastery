@@ -47,7 +47,7 @@ export default function Pricing() {
           </div>
           <h2 className={styles.heading}>
             Get Everything for Just{' '}
-            <span className="gold-text">₹499</span>
+            <span className="gold-text">₹399</span>
           </h2>
           <p className={styles.subheading}>
             This offer expires soon. Lock in your access before the price goes back to ₹1,999.
@@ -77,7 +77,7 @@ export default function Pricing() {
             <div className={styles.priceBlock}>
               <span className={styles.originalPrice}>₹1,999</span>
               <div className={styles.priceRow}>
-                <span className={styles.price}>₹499</span>
+                <span className={styles.price}>₹399</span>
                 <span className={styles.discount}>75% OFF</span>
               </div>
               <span className={styles.priceNote}>One-time payment · Lifetime access</span>
@@ -85,7 +85,7 @@ export default function Pricing() {
 
             {/* CTA Button */}
             <a
-              href="https://superprofile.bio/vp/67a33f8eff3abc0013ea22c4"
+              href="https://superprofile.bio/nexusneet/vrCCQFYRiP"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.buyBtn}
@@ -101,7 +101,7 @@ export default function Pricing() {
                 <rect x="3" y="11" width="18" height="11" rx="2" stroke="currentColor" strokeWidth="1.5"/>
                 <path d="M7 11V7a5 5 0 0 1 10 0v4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
               </svg>
-              Secured by Razorpay · UPI · Cards · Net Banking
+              Secured by · UPI · Cards · Net Banking
             </div>
 
             {/* Divider */}
@@ -161,7 +161,7 @@ export default function Pricing() {
                 <span>₹11,200+</span>
               </div>
               <div className={styles.replaceOffer}>
-                You pay only <strong>₹499</strong>
+                You pay only <strong>₹399</strong>
               </div>
             </div>
           </div>

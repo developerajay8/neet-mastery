@@ -58,12 +58,14 @@ export default function Navbar() {
           </ul>
 
           {/* CTA */}
-          <button
-            onClick={() => scrollTo('pricing')}
+          <a
+              href="https://superprofile.bio/nexusneet/vrCCQFYRiP"
+              target="_blank"
+              rel="noopener noreferrer"
             className={styles.navCta}
           >
-            Buy Now — ₹499
-          </button>
+            Buy Now — ₹399
+          </a>
 
           {/* Hamburger */}
           <button
@@ -94,9 +96,12 @@ export default function Navbar() {
               </li>
             ))}
           </ul>
-          <button onClick={() => scrollTo('pricing')} className={styles.mobileCta}>
-            Buy Now — ₹499
-          </button>
+           <a
+              href="https://superprofile.bio/nexusneet/vrCCQFYRiP"
+              target="_blank"
+              rel="noopener noreferrer" className={styles.mobileCta}>
+            Buy Now — ₹399
+          </a>
         </div>
       )}
     </>

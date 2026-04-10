@@ -22,12 +22,12 @@ export default function FinalCTA() {
 
         <div className={styles.priceRow}>
           <span className={styles.strike}>₹1,999</span>
-          <span className={styles.price}>₹499</span>
+          <span className={styles.price}>₹399</span>
           <span className={styles.badge}>Limited Offer</span>
         </div>
 
         <a
-          href="https://superprofile.bio/vp/67a33f8eff3abc0013ea22c4"
+              href="https://superprofile.bio/nexusneet/vrCCQFYRiP"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.ctaBtn}

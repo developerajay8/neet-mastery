@@ -108,14 +108,17 @@ export default function Bundle() {
           <p className={styles.bottomText}>
             All of this for just{' '}
             <span className={styles.strikePrice}>₹1,999</span>{' '}
-            <span className={styles.offerPrice}>₹499</span>
+            <span className={styles.offerPrice}>₹399</span>
           </p>
-          <button
+          <a
+              href="https://superprofile.bio/nexusneet/vrCCQFYRiP"
+              target="_blank"
+              rel="noopener noreferrer"
             className="btn-primary"
-            onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
+           
           >
             Claim Your Bundle
-          </button>
+          </a>
         </div>
       </div>
     </section>
